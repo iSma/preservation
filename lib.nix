@@ -395,6 +395,7 @@ rec {
             value = null;
           })
         );
+        type = "bind";
         where = concatPaths [
           prefix
           directoryConfig.directory
@@ -437,6 +438,7 @@ rec {
             value = null;
           })
         );
+        type = "bind";
         where = concatPaths [
           prefix
           fileConfig.file
